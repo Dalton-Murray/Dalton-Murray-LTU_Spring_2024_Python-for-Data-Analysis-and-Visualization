@@ -1,0 +1,12 @@
+string = "Hello My Friends"  print(string.upper().isupper()) print(string.replace("Hello", "Hi")) print(string)  is_in = "Helo" in string print(is_in)   # Arithmatic Operators  + - * / // % ** x = 6 y = 9 print(f"{x} * {y} = {x*y}")   x = x + 2 x += 2 x -= 2 x /= 2  # Operator Precedence x = 2 + 3 / 3 * 4 print(x)
+# float --> floating point f = -341.268  print(abs(f))  import math pi = math.pi si = math.sin(pi/2) print(si)  # Comparison Operators in PYTHON # > < >= <= == != condition = si >= 1.0 print(type(condition))
+
+Seyedmohammad Shams 6:48 PM
+# If statements in Python condition = True
+if condition:     print("condition was true") else:     print("what are you doing?") print("Hello Again")   temp = float(input("please enter the temp: "))  if temp > 88:     print("it is a hot day") elif temp > 60:
+    print("nice day")
+else:
+    print("cold day")
+
+Seyedmohammad Shams 7:00 PM
+"""Question:'''Write a Python program that takes a year as input and determines whether it's a leap year. Leap years are divisible by 4, except for years that are divisible by 100. However, years divisible by 400 are leap years.'''"""  # logical operators and or not year = int(input("enter the year: "))  div_4 = year % 4 == 0 div_100 = year % 100 == 0 div_400 = year % 400 == 0  if div_4:     if not div_100:         print(f"{year} is leap year", "Div by 4 and not by 100")     elif div_400:         print(f"{year} is leap year", "Div 400, 100, 4")     else:         print(f"{year} is not leap year", "Div by 4, 100, not 400") else:     print(f"{year} is not leap year", "not 4")

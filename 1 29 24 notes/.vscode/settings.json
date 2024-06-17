@@ -1,0 +1,6 @@
+{
+    "autoDocstring.docstringFormat": "docblockr",
+    "autoDocstring.includeExtendedSummary": false,
+    "autoDocstring.includeName": true,
+    "autoDocstring.logLevel": "Info"
+}

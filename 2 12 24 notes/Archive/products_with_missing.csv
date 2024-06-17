@@ -1,0 +1,6 @@
+name,quantity,price
+Product A,10.0,100
+Product B,,150
+Product C,15.0,120
+Product D,,180
+Product E,20.0,110
